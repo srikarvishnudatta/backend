@@ -1,0 +1,9 @@
+Flask==2.3.3  # Replace with your preferred Flask version
+flask-cors==3.0.10  # Enables CORS for your Flask app
+
+# PyTorch dependencies (ensure compatibility with your CUDA version if applicable)
+torch==2.0.1  # Replace with the specific PyTorch version you need
+torchvision==0.15.2  # Optional, for image-related operations with PyTorch
+
+# Additional libraries (add others as needed for your app)
+numpy==1.25.2
