@@ -1,5 +1,5 @@
-Flask==2.3.3  # Replace with your preferred Flask version
-flask-cors==3.0.10  # Enables CORS for your Flask app
+fastapi[standard]>=0.113.0,<0.114.0
+pydantic>=2.7.0,<3.0.0   # Enables CORS for your Flask app
 
 # PyTorch dependencies (ensure compatibility with your CUDA version if applicable)
 torch==2.0.1  # Replace with the specific PyTorch version you need
